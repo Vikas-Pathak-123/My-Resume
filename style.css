@@ -51,11 +51,12 @@ section{
     width: 60%;
 }
 .name{
-    font-size: 1.2rem;
-    padding: 0.8rem;
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 0.02px;
+      font-size: 1.2rem;
+      font-weight: 700;
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 0.02px;
+      padding: 0.8rem;
 }
 .designation{
     font-size: 1rem;
