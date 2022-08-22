@@ -69,13 +69,10 @@ section{
     padding: 1rem;
 }
 .skills{
-    font-size: 0.75;    
-    text-align: center;
-    text-transform: uppercase;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-    padding-top: 1rem;
-    padding-right: 1rem;
+  text-align: center;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  padding: 1rem 0.5rem;
 }
 .skill-name{
     font-size: 0.65rem;
