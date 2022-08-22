@@ -19,7 +19,7 @@ body{
 }
 .right-section{
     display: grid;
-    grid-column: span 1;
+    grid-column: span 1 / span 2;
     background: #f7f7f7;
     width: 90%;
     padding-top: 2rem;
@@ -51,12 +51,12 @@ section{
     width: 60%;
 }
 .name{
-      font-size: 1.2rem;
-      font-weight: 700;
-      text-align: center;
-      text-transform: uppercase;
-      letter-spacing: 0.02px;
-      padding: 0.8rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 0.8rem;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.02px;
 }
 .designation{
     font-size: 1rem;
@@ -70,13 +70,13 @@ section{
     padding: 1rem;
 }
 .skills{
-  text-align: center;
-  font-size: 0.75rem;
-  text-transform: uppercase;
-  padding: 1rem 0.5rem;
+    text-align: center;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    padding: 1rem 0.5rem;
 }
 .skill-name{
-     font-size: 0.65rem;
+    font-size: 0.65rem;
   font-weight: 0.65rem;
   text-align: left;
   padding-bottom: 0.5rem;
