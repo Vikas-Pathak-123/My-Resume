@@ -1,106 +1,224 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    list-style: none;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Mingzat&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Mingzat&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Mingzat&family=Playfair+Display:ital@1&display=swap");
+* {
+  padding: 0px;
+  box-sizing: border-box;
+  list-style: none;
+  margin: 0px;
 }
-body{
-    display: block;
-    background-color: #a6abad;
+body {
+  /* display: block; */
+  color: white;
+  font-family: "Mingzat", sans-serif;
 }
 
-/* Write CSS code below */
-.left-section{
-    grid-column: span 1;
-    background: #242531;
-    color: white;
-}
-.right-section{
-    grid-column: span 1;
-    background: #f7f7f7;
-    width: 90%;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    padding-left: 3rem;
-    padding-right: 3rem;
+.main-content {
+  display: grid;
+  /* grid-template-columns: 300px 700px; */
+  grid-template-columns: repeat(1, 1fr);
+  /* grid-template-rows: 20% 80%; */
+  margin: 20px auto;
+  min-height: 1000px;
+  width: 90%;
+  background-color: rgb(212, 238, 229);
 }
 
-section{
-    display: block;
+.items {
+  background-color: #fff;
+  /* margin: 2px; */
 }
 
-.main-content{
-    min-height: 1000px;
-    width: 90%;
-    margin: 20px auto;
+.left-section {
+  /* margin: 20px;  */
+  display: grid;
+
+  /* grid-area: 1/1/3/2; */
+  /* grid-column: span 1; */
+
+  background-color: rgb(12, 11, 12);
+}
+
+.left-content {
+  padding: 1rem;
+  /* display: flex; */
+  /* justify-content: row; */
+  /* flex-direction: row; */
+  color: white;
+}
+
+.profile-image img {
+  margin: auto;
+  padding: 1rem;
+  display: block;
+  width: 60%;
+  border: 5px solid white;
+  border-radius: 30%;
+}
+
+.name {
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.02px;
+  padding: 0.8rem;
+}
+
+.designation {
+  font-size: 1rem;
+  text-align: center;
+  padding-bottom: 0.5rem;
+  color: rgb(27, 114, 196);
+  text-transform: uppercase;
+}
+
+.description {
+  font-size: 0.75rem;
+  text-align: center;
+  padding: 1rem;
+  font-family: "Mingzat", sans-serif;
+}
+
+.contact-item {
+}
+
+a {
+  color: aliceblue;
+}
+a:hover {
+  font-size: 31px;
+  transition-duration: 2s;
+}
+
+.social-media {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+.personal-details {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+
+.skills {
+  text-align: center;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  padding: 1rem 0.5rem;
+}
+
+.skill-name {
+  font-size: 0.65rem;
+  font-weight: 0.65rem;
+  text-align: left;
+  padding-bottom: 0.5rem;
+}
+
+.skills-title {
+  text-transform: uppercase;
+}
+
+.progress-bar {
+  border: 1px white solid;
+  height: 4px;
+}
+
+.html {
+  background-color: rgb(240, 214, 214);
+  height: inherit;
+}
+
+.css {
+  background-color: rgb(240, 214, 214);
+  height: inherit;
+}
+
+.js {
+  background-color: rgb(240, 214, 214);
+  height: inherit;
+}
+
+.react {
+  background-color: rgb(240, 214, 214);
+  height: inherit;
+}
+
+.java {
+  background-color: rgb(240, 214, 214);
+  height: inherit;
+}
+
+/* right section wroking ----------- */
+.right-section {
+  /* till down */
+  /* grid-area: 1/2/3/3; */
+  /*grid-column: span 1 / span 2; */
+
+  /* till up */
+  color: black;
+  background-color: rgb(168, 212, 168);
+  display: grid;
+  padding: 5%;
+}
+
+.right-main-content {
+  pad: 2rem 3rem;
+}
+.right-title {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: 0.5rem;
+}
+
+.z {
+  padding-top: 2%;
+  padding-left: 15px;
+}
+
+@media screen and (min-width: 674px) {
+  .main-content {
     display: grid;
     grid-template-columns: 300px 700px;
-}
-.left-content{
-    padding: 1rem;
-}
-.profile-image{
-    padding: 1rem;
-    display: block;
-    margin: auto;
-    border: 5px solid white;
-    border-radius: 30%;
-    width: 60%;
-}
-.name{
-    font-size: 1.2rem;
-    padding: 0.8rem;
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 0.02px;
-}
-.designation{
-    font-size: 1rem;
-    text-align: center;
-    text-transform: uppercase;
-    padding-bottom: 0.5rem;
-}
-.description{
-    font-size: 0.75rem;
-    text-align: center;
-    padding: 1rem;
-}
-.skills{
-    font-size: 0.75;    
-    text-align: center;
-    text-transform: uppercase;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-    padding-top: 1rem;
-    padding-right: 1rem;
-}
-.skill-name{
-    font-size: 0.65rem;
-    text-align: left;
-    padding-bottom: 0.5;
-}
-.progress-bar{
-    border: 1px solid white;
-    height: 4px;
-}
-.social-media{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 5px;
-    color: #f7f7f7;
-}
-.right-title{
-    text-transform: uppercase;
-    font-size: 1.2rem;
-    padding: 0.5rem;
-    letter-spacing: 1px;
+    /* grid-template-columns: repeat(1, 1fr); */
+    grid-template-rows: 20% 80%;
+    margin: 20px auto;
+    min-height: 1000px;
+    width: 90%;
+    background-color: rgb(212, 238, 229);
+  }
+
+  .left-section {
+    /* margin: 20px;  */
+    display: grid;
+
+    grid-area: 1/1/3/2;
+    grid-column: span 1;
+
+    background-color: rgb(12, 11, 12);
+  }
+
+  .right-section {
+    /* till down */
+    grid-area: 1/2/3/3;
+    grid-column: span 1 / span 2;
+
+    /* till up */
+    color: black;
+    background-color: rgb(168, 212, 168);
+    display: grid;
+    padding: 5%;
+  }
 }
 
-@media screen and (max-width:673px) {
-    .main-content{
-        grid-template-columns: repeat(1, 1fr);
-    }
-    
+@media screen and (max-width: 630px) {
+  .main-content {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
