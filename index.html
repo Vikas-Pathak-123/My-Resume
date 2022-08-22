@@ -1,175 +1,278 @@
 <!DOCTYPE html>
-<html lang="en">        
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="">
-        <meta name="author" content="">
-        <title>Resume</title>
-        
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="./style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    </head>
-    <body>
-        <main class="main-content" contenteditable="true">
-            <section class="left-section">
-                 <div class="left-content">
-                    <!-- Write code for the left section here -->
-                    <div class="profile-detail">
-                        <div class="profile">
-                            <img class="profile-image" src="image/vikas1.jpg" alt="vikas">
-                        </div>
-
-                        <div class="name">Vikas Pathak</div> 
-                            <h3 class="designation">Web Developer</h3> 
-                            <hr>
-                            <p class="description"> 
-                            Civil Engineer | Web Developer | Freelancer 
-                            </p> 
-                            <div class="contact-info"> 
-                                <div class="contact-items"> 
-
-                                    <div class="social-media"> 
-                                        <li class="icon"> 
-                                            <a href="https://www.linkedin.com/in/biswajit-deb-barman-02601b244/"><i class="fa fa-linkedin" aria-hidden="true"></i></a> 
-                                        </li> 
-
-                                        <li class="icon"> 
-                                            <a href="https://github.com/Biswajit-Mercuri"> 
-                                            <i class="fa fa-github" aria-hidden="true" > </i> 
-                                            </a> 
-                                        </li> 
-
-                                        <li class="icon"> 
-                                            <a href="#"> 
-                                            <i class="fa fa-facebook" aria-hidden="true"></i> 
-                                            </a> 
-                                        </li> 
-
-                                        <li class="icon"> 
-                                            <a href="#"> 
-                                            <i class="fa fa-twitter" aria-hidden="true"></i> 
-                                            </a> 
-                                        </li> 
-                                    </div> 
-                                    
-                                    <div class="personal-details"> 
-                                        <li class="icon"> 
-                                            <a> 
-                                            <i class="fa fa-envelope" aria-hidden="true"></i> 
-                                            123vikas.vp79@gmail.com
-                                            </a> 
-                                        </li> 
-                                        <li class="icon"> 
-                                            <a> 
-                                            <i class="fa fa-phone-square" aria-hidden="true"></i> 
-                                            +91-8574259050
-                                            </a> 
-                                        </li> 
-                                        <li class="icon"> 
-                                            <a> 
-                                            <i class="fa fa-address-book" aria-hidden="true"></i> 
-                                            UTTER PRADESH, India 
-                                            </a> 
-                                        </li> 
-                                    </div> 
-                                </div> 
-                            </div> 
-                            <div class="skills">
-                                <h2 class="skill-title">skills
-                                </h2>
-                            </div> 
-                            <div class="skills-content">
-                                <div class="skill-item">
-                                    <div class="skill-name"><h3>HTML</h3></div>
-                                    <div class="progress-bar" style="width: 50%;"></div>
-                                </div>
-                    
-                                <div class="skill-item">
-                                    <div class="skill-name"><h3>CSS</h3></div>
-                                    <div class="progress-bar" style="width: 40%;"></div> 
-                                </div>
-
-                                
-                                <div class="skill-item">
-                                    <div class="skill-name"><h3>JAVASCRIPT</h3></div>
-                                    <div class="progress-bar" style="width: 30%;"></div>
-                                </div>
-                                
-                                <div class="skill-item">
-                                    <div class="skill-name"><h3>Java language</h3></div>
-                                    <div class="progress-bar" style="width: 76%;"></div> 
-                                </div>
-                                
-                                <div class="skill-item">
-                                    <div class="skill-name"><h3></h3></div>
-                                    <div class="progress-bar" style="width: 85%;"></div> 
-                                </div>
-                                
-                            </div> 
-                        </div> 
-                        
-
-                    </div>
-                </div>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>myResume</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/1966731748.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- main content -->
+    <main class="main-content">
+      <!-- left-section -->
+      <section class="left-section items">
+        <div class="left-content">
+          <!--
+                        --------------------------------------
+                        -------------------------
+                        -----------------------
+                        profile details class
+                        ----------------------
+                        ----------------------------------
+                    ---------------------------------------
+                        -->
+          <div class="profile-details">
+            <!--                    -------------------------------
+                                profile image part
+                                --------------------------------
+                            -->
+            <div class="profile-image">
+              <img src="image/vikas1.jpg" />
             </div>
-            </section>
+            <!-- 
+                                -------------------------
+                                name
+                                ---------------------
+                            -->
+            <div class="name">
+              <!-- <h3>Om Bharti</h3> -->
+              Vikas Pathak
+            </div>
 
-            <section class="right-section"> 
-                <div class="right-main-content">
-                    
-                    <!-- Write code for the right section here -->
-                    <section class="about-section"> 
-                        <h2 class="right-title"> about me </h2> 
-                        <div class="about-details"> 
-                                Hello, This is 
-                                <b> Vikas Pathak </b> 
-                                from 
-                                <b>Unnao Utter Pradesh</b>. 
-                                I completed my schooling from 
-                                <b>Christ Church Inter Collage</b> 
-                                and 
-                                <b>B.sc from Kanpur University in science streem</b>. 
-                                My hobbies are to 
-                                <em><b> Play Computer and Mobile Games, Cooking, Solo Tours, Si-Fi Movies and Web-Series </b></em>. 
-                            <div class="strength-weakness"> 
-                                <h1>My strengths are :</h1> 
-                                <li>problem solver</li> 
-                                <li>Flexible</li> 
-                                <li>Honest</li> 
-                                <li>Positive</li> 
-                                <li>Creative</li> 
-                                <h1>Weaknesses are :</h1> 
-                                <li>fear to make mistake</li> 
-                                <li>i can't stop until i finished my pendding work</li> 
-                            </div> 
-                        </div> 
-                    </section> 
-                    <section class="education-section"> 
-                        <h2 class="right-title"> education </h2> 
-                        <div class="school-college"> 
-                            <p>Kendriya Vidyalaya, Raigaj - 10th -2013</p> 
-                            <p>Kendriya Vidyalaya, Raigaj - 12th (Science) - 2016</p> 
-                            <p>Surendra Institute Of Engineering and Management - Civil Engineering - 2020</p> 
-                        </div> 
-                    </section> 
-                    <section class="experience-section"> 
-                        <h2 class="right-title"> experience </h2> 
-                        <div class="my-work"> 
-                            <li>GRAPHIC DESIGN - 8 MONTHS</li> 
-                            <li>VIDEO EDITTING - 1 YEAR</li> 
-                            <li>HTML, CSS, JAVASCRIPT - 5 MONTHS</li> 
-                            <!-- <li>BUILD A APP FRONTEND DESIGN USING REACT-NATIVE</li>  -->
-                        </div> 
-                    </section> 
-                        
+            <div class="designation">SDE-1</div>
+
+            <hr />
+
+            <div class="description">
+              Mear Stack Developer | Full Stack Developer | Web Developer
+            </div>
+          </div>
+
+          <!-- contact items div block -->
+
+          <div class="contact-info">
+            <div class="contact-item">
+              <div class="social-media">
+                <!-- <ul class="ul-cl">  -->
+                <li class="icon">
+                  <a
+                    href="https://www.linkedin.com/in/om-bharti-034a9a240/"
+                    target="_blank"
+                    ><i class="fa-brands fa-linkedin-in"></i
+                  ></a>
+                </li>
+
+                <li class="icon">
+                  <a href="https://github.com/OmBharti999" target="_blank"
+                    ><i class="fa-brands fa-github"></i
+                  ></a>
+                </li>
+
+                <li class="icon">
+                  <a href="" target="_blank"
+                    ><i class="fa-brands fa-facebook"></i
+                  ></a>
+                </li>
+
+                <li class="icon">
+                  <a href="https://twitter.com/StarOm6" target="_blank"
+                    ><i class="fa-brands fa-twitter"></i
+                  ></a>
+                </li>
+                <!-- </ul> -->
+              </div>
+
+              <!-- persolnal contact deaail -->
+              <div class="personal-details">
+                <li class="icon">
+                  <i class="fa-solid fa-envelope"></i> vikas.vp79@gmail.com
+                </li>
+                <li class="icon">
+                  <i class="fa-solid fa-phone"></i> +918574259050
+                </li>
+                <li class="icon">
+                  <i class="fa-solid fa-location-dot"></i>
+                  4/142 shubhash nagar shuklaganj, Unnao 209861
+                </li>
+              </div>
+              <br />
+            </div>
+          </div>
+
+          <!--
+                            ------------------------
+                        SSSSSSkkkkkkkkkkiiiiiiiiiiiilllllllllllllllll
+                            ---------------------------
+                    -->
+
+          <div>
+            <div class="skills">
+              <h2 class="skills-title">Skills</h2>
+
+              <!-- <br /> -->
+
+              <div class="skills-content">
+                <!-- 
+                      1st
+                -->
+                <div class="skill-item">
+                  <div class="skill-name">
+                    <h3>HTML</h3>
+                  </div>
+
+                  <div class="skill-progress">
+                    <div class="progress-bar" style="width: 90%"></div>
+                  </div>
                 </div>
-            </section>
-        </main>
-    </body>
-</html> 
+
+                <!-- 
+                  2nd
+                 -->
+
+                <div class="skill-item">
+                  <div class="skill-name">
+                    <h3>CSS</h3>
+                  </div>
+
+                  <div class="skill-progress">
+                    <div class="progress-bar" style="width: 70%"></div>
+                  </div>
+                </div>
+
+                <!-- 
+                  3rd
+                 -->
+
+                <div class="skill-item">
+                  <div class="skill-name">
+                    <h3>JAVASCRIPT</h3>
+                  </div>
+
+                  <div class="skill-progress">
+                    <div class="progress-bar" style="width: 70%"></div>
+                  </div>
+                </div>
+
+                <!-- 
+                  4th
+                 -->
+
+                <div class="skill-item"><div class="skill-name">
+                  <h3>JAVA</h3>
+
+                  <div class="skill-progress">
+                    <div class="progress-bar" style="width: 70%"></div>
+                  </div>
+                </div>
+
+                <!--
+                   5th
+                 -->
+                <div class="skill-item">
+                 <div class="skill-name">
+                  <h3>REACT</h3>
+
+                  <div class="skill-progress">
+                    <div class="progress-bar" style="width: 50%"></div>
+                  </div>
+                </div>
+
+                <!-- 
+                  6th
+                 -->
+                 <div class="skill-item">
+                  <div class="skill-name">
+                   <h3>Node JS</h3>
+ 
+                   <div class="skill-progress">
+                     <div class="progress-bar" style="width: 50%"></div>
+                   </div>
+                 </div>
+
+                 <!--
+                   7th
+                 -->
+
+                 <div class="skill-item">
+                  <div class="skill-name">
+                   <h3>Mongo DB</h3>
+ 
+                   <div class="skill-progress">
+                     <div class="progress-bar" style="width: 50%"></div>
+                   </div>
+                 </div>
+                <!-- 
+
+                  end
+                 -->
+              </div>
+            </div>
+          </div>
+
+          <!-- this skill plus eske uppar wala div bhi-- part ends -->
+        </div>
+      </section>
+
+
+
+      <!--
+        
+        
+        STarts heeeeeeeeeeerrrrrrrrrrrrrrrrreeeeeeeeeeeeeee
+        
+        right section
+    
+    -->
+      <section class="right-section items">
+        <!-- hi this is right -->
+        <div class="right-main-content">
+          <section class="about sect">
+            <h3 class="right-title">About me</h3>
+            <div class="z">
+              Hello, I am Vikas Pathak. Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Voluptatibus ab mollitia velit officia! Eos
+              sapiente nemo esse itaque, odit culpa id nisi cumque officia, quos
+              voluptatem unde voluptas explicabo reiciendis. Sequi est odit quia
+              tenetur nihil esse dolorem distinctio voluptatibus.
+            </div>
+          </section>
+          <section class="education sect">
+            <h3 class="right-title">Education</h3>
+            <div class="z">
+              <h4>Bachelor in Science(Physics Honors)</h4>
+              <div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
+                laboriosam possimus reiciendis impedit quia officiis!
+              </div>
+              <h4>Intermediate</h4>
+              <div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+                aut aliquid dicta magni commodi!
+              </div>
+            </div>
+          </section>
+          <section class="experience sect">
+            <h3 class="right-title">experience</h3>
+            <div class="z">
+              <h4>Crew Trainer in Mc Donald's</h4>
+            </div>
+          </section>
+          <section class="Projcts">
+            <h3 class="right-title">Projects</h3>
+            <div class="z">
+              <h4>will write here</h4>
+              <h4>will write here</h4>
+            </div>
+          </section>
+        </div>
+      </section>
+    </main>
+
+ 
+  </body>
+</html>
